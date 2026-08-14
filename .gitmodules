@@ -1,5 +1,5 @@
-[submodule "traccar-web"]
-	path = traccar-web
-	url = ../traccar-web.git
+[submodule "taipan-web"]
+	path = taipan-web
+	url = https://github.com/infodesarrolloin-prog/taipan-web.git
 	branch = master
 	ignore = all
