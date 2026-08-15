@@ -705,3 +705,36 @@
 2026-08-15 21:26:15  INFO: Starting server...
 2026-08-15 21:26:17  INFO: HikariPool-1 - Starting...
 2026-08-15 21:26:21 ERROR: Main method error - Connection refused - ConnectException (... < DatabaseModule:82 < <gener:-1 < *:-1 < ... < MainModule:147 < <gener:-1 < ...)
+2026-08-15 21:28:20  INFO: Operating system name: Linux version: 6.6.87.2-microsoft-standard-WSL2 architecture: amd64
+2026-08-15 21:28:20  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 21.0.11+10-LTS
+2026-08-15 21:28:20  INFO: Memory limit heap: 1978mb non-heap: 0mb
+2026-08-15 21:28:20  INFO: Character encoding: UTF-8
+2026-08-15 21:28:20  INFO: Version: 6.14.5
+2026-08-15 21:28:20  INFO: Starting server...
+2026-08-15 21:28:20  INFO: HikariPool-1 - Starting...
+2026-08-15 21:28:22  INFO: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ff6077
+2026-08-15 21:28:22  INFO: HikariPool-1 - Start completed.
+2026-08-15 21:28:24  INFO: Successfully acquired change log lock
+2026-08-15 21:28:24  INFO: Clearing database change log checksums for database mariadb
+2026-08-15 21:28:24  INFO: Successfully released change log lock
+2026-08-15 21:28:24  INFO: Command execution complete
+2026-08-15 21:28:27  INFO: Reading from traccar.databasechangelog
+2026-08-15 21:28:34  INFO: Reading from traccar.databasechangelog
+2026-08-15 21:28:34  INFO: Reading from traccar.databasechangelog
+2026-08-15 21:28:34  INFO: UPDATE SUMMARY
+2026-08-15 21:28:34  INFO: Run:                          0
+2026-08-15 21:28:34  INFO: Previously run:              33
+2026-08-15 21:28:34  INFO: Filtered out:                 1
+2026-08-15 21:28:34  INFO: -------------------------------
+2026-08-15 21:28:34  INFO: Total change sets:           34
+2026-08-15 21:28:34  INFO: FILTERED CHANGE SETS SUMMARY
+2026-08-15 21:28:34  INFO: DBMS mismatch:                1
+2026-08-15 21:28:34  INFO: Update summary generated
+2026-08-15 21:28:34  INFO: Command execution complete
+2026-08-15 21:28:40  INFO: jetty-12.1.8; built: 2026-04-01T01:09:18.991Z; git: c9cdc9aaa434a3665b8a53b4d1cc3684992da649; jvm 21.0.11+10-LTS
+2026-08-15 21:28:40  INFO: Session workerName=node0
+2026-08-15 21:28:40  INFO: Started oeje10s.ServletContextHandler@1e4d8770{ROOT,/,b=file:///opt/taipan/web/,a=AVAILABLE,h=oeje10s.SessionHandler@5b5b9521{STARTED}}
+2026-08-15 21:28:42  INFO: Started oeje10s.ServletContextHandler@1e4d8770{ROOT,/,b=file:///opt/taipan/web/,a=AVAILABLE,h=oeje10s.SessionHandler@5b5b9521{STARTED}}
+2026-08-15 21:28:42  INFO: Started oejs.ServerConnector@1831447c{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2026-08-15 21:28:42  INFO: Started oejs.Server@7741507c{STARTING}[12.1.8,sto=0] @2108ms
+2026-08-15 21:37:18  WARN: baseResource file:///opt/taipan/./media is not a readable directory
