@@ -169,29 +169,31 @@ jar {
     }
 }
 
-// Frontend build: install npm deps, build traccar-web and copy to web/
+// Frontend build: install npm deps, build the local frontend and copy to web/
 import org.gradle.internal.os.OperatingSystem
 
 def npmExecutable = OperatingSystem.current().isWindows() ? "npm.cmd" : "npm"
 
+def frontendDir = "$projectDir/taipan-web"
+
 tasks.register("npmInstall", Exec) {
-    workingDir "$projectDir/traccar-web"
+    workingDir frontendDir
     commandLine npmExecutable, "install"
-    inputs.file("$projectDir/traccar-web/package.json")
-    outputs.dir("$projectDir/traccar-web/node_modules")
+    inputs.file("$frontendDir/package.json")
+    outputs.dir("$frontendDir/node_modules")
 }
 
 tasks.register("npmBuild", Exec) {
     dependsOn npmInstall
-    workingDir "$projectDir/traccar-web"
+    workingDir frontendDir
     commandLine npmExecutable, "run", "build"
-    inputs.dir("$projectDir/traccar-web/src")
-    outputs.dir("$projectDir/traccar-web/build")
+    inputs.dir("$frontendDir/src")
+    outputs.dir("$frontendDir/build")
 }
 
 tasks.register("copyWeb", Copy) {
     dependsOn npmBuild
-    from "$projectDir/traccar-web/build"
+    from "$frontendDir/build"
     into "$projectDir/web"
 }
 

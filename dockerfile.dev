@@ -1,4 +1,4 @@
-﻿FROM eclipse-temurin:21-jdk AS build
+FROM eclipse-temurin:21-jdk AS build
 WORKDIR /build
 COPY . .
 RUN sed -i 's/\r$//' gradlew && chmod +x gradlew
@@ -13,7 +13,7 @@ RUN apt-get update && \
 RUN ./gradlew assemble -x test --no-daemon
 
 FROM eclipse-temurin:21-jre
-WORKDIR /opt/traccar
+WORKDIR /opt/taipan
 COPY --from=build /build/target/tracker-server.jar ./tracker-server.jar
 COPY --from=build /build/target/lib ./lib
 COPY --from=build /build/schema ./schema
@@ -23,4 +23,4 @@ EXPOSE 8082
 EXPOSE 5000-5150
 EXPOSE 5000-5150/udp
 
-ENTRYPOINT ["java", "-jar", "tracker-server.jar", "conf/traccar.xml"]
+ENTRYPOINT ["java", "-jar", "tracker-server.jar", "conf/taipan.xml"]

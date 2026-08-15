@@ -495,3 +495,213 @@
 2026-08-14 20:41:01  INFO: Started oejs.ServerConnector@41d84abb{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
 2026-08-14 20:41:01  INFO: Started oejs.Server@54087bdb{STARTING}[12.1.8,sto=0] @1631ms
 2026-08-14 21:04:06  INFO: Stopping server...
+2026-08-14 19:34:34  INFO: Operating system name: Windows 11 version: 10.0 architecture: amd64
+2026-08-14 19:34:34  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 21.0.11+10-LTS
+2026-08-14 19:34:34  INFO: Memory limit heap: 4078mb non-heap: 0mb
+2026-08-14 19:34:34  INFO: Character encoding: UTF-8
+2026-08-14 19:34:34  INFO: Version: 6.14.5
+2026-08-14 19:34:34  INFO: Starting server...
+2026-08-14 19:34:35  INFO: HikariPool-1 - Starting...
+2026-08-14 19:34:40 ERROR: Main method error - No such host is known (db) - UnknownHostException (... < DatabaseModule:82 < <gener:-1 < *:-1 < ... < MainModule:146 < <gener:-1 < ...)
+2026-08-15 00:51:36  INFO: Operating system name: Linux version: 6.6.87.2-microsoft-standard-WSL2 architecture: amd64
+2026-08-15 00:51:36  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 21.0.11+10-LTS
+2026-08-15 00:51:36  INFO: Memory limit heap: 1986mb non-heap: 0mb
+2026-08-15 00:51:36  INFO: Character encoding: UTF-8
+2026-08-15 00:51:36  INFO: Version: 6.14.5
+2026-08-15 00:51:36  INFO: Starting server...
+2026-08-15 00:51:36  INFO: HikariPool-1 - Starting...
+2026-08-15 00:51:38  INFO: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ff6077
+2026-08-15 00:51:38  INFO: HikariPool-1 - Start completed.
+2026-08-15 00:51:39  INFO: Successfully acquired change log lock
+2026-08-15 00:51:40  INFO: Clearing database change log checksums for database mariadb
+2026-08-15 00:51:40  INFO: Successfully released change log lock
+2026-08-15 00:51:40  INFO: Command execution complete
+2026-08-15 00:51:42  INFO: Reading from traccar.databasechangelog
+2026-08-15 00:51:45  INFO: Reading from traccar.databasechangelog
+2026-08-15 00:51:45  INFO: Reading from traccar.databasechangelog
+2026-08-15 00:51:46  INFO: UPDATE SUMMARY
+2026-08-15 00:51:46  INFO: Run:                          0
+2026-08-15 00:51:46  INFO: Previously run:              33
+2026-08-15 00:51:46  INFO: Filtered out:                 1
+2026-08-15 00:51:46  INFO: -------------------------------
+2026-08-15 00:51:46  INFO: Total change sets:           34
+2026-08-15 00:51:46  INFO: FILTERED CHANGE SETS SUMMARY
+2026-08-15 00:51:46  INFO: DBMS mismatch:                1
+2026-08-15 00:51:46  INFO: Update summary generated
+2026-08-15 00:51:46  INFO: Command execution complete
+2026-08-15 00:51:56  INFO: jetty-12.1.8; built: 2026-04-01T01:09:18.991Z; git: c9cdc9aaa434a3665b8a53b4d1cc3684992da649; jvm 21.0.11+10-LTS
+2026-08-15 00:51:56  INFO: Session workerName=node0
+2026-08-15 00:51:57  INFO: Started oeje10s.ServletContextHandler@66314fee{ROOT,/,b=file:///opt/taipan/web/,a=AVAILABLE,h=oeje10s.SessionHandler@14b5325f{STARTED}}
+2026-08-15 00:51:59  INFO: Started oeje10s.ServletContextHandler@66314fee{ROOT,/,b=file:///opt/taipan/web/,a=AVAILABLE,h=oeje10s.SessionHandler@14b5325f{STARTED}}
+2026-08-15 00:52:00  INFO: Started oejs.ServerConnector@1ba3c03d{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2026-08-15 00:52:00  INFO: Started oejs.Server@9a37591{STARTING}[12.1.8,sto=0] @3379ms
+2026-08-15 00:52:17  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 00:52:17  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 00:52:19  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 00:52:19  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 00:52:21  WARN: baseResource file:///opt/taipan/./media is not a readable directory
+2026-08-15 01:28:47  INFO: Operating system name: Linux version: 6.6.87.2-microsoft-standard-WSL2 architecture: amd64
+2026-08-15 01:28:47  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 21.0.11+10-LTS
+2026-08-15 01:28:47  INFO: Memory limit heap: 1986mb non-heap: 0mb
+2026-08-15 01:28:47  INFO: Character encoding: UTF-8
+2026-08-15 01:28:47  INFO: Version: 6.14.5
+2026-08-15 01:28:47  INFO: Starting server...
+2026-08-15 01:28:48  INFO: HikariPool-1 - Starting...
+2026-08-15 01:28:50  INFO: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ff6077
+2026-08-15 01:28:50  INFO: HikariPool-1 - Start completed.
+2026-08-15 01:28:51  INFO: Successfully acquired change log lock
+2026-08-15 01:28:52  INFO: Clearing database change log checksums for database mariadb
+2026-08-15 01:28:52  INFO: Successfully released change log lock
+2026-08-15 01:28:52  INFO: Command execution complete
+2026-08-15 01:28:53  INFO: Reading from traccar.databasechangelog
+2026-08-15 01:28:59  INFO: Reading from traccar.databasechangelog
+2026-08-15 01:28:59  INFO: Reading from traccar.databasechangelog
+2026-08-15 01:28:59  INFO: UPDATE SUMMARY
+2026-08-15 01:28:59  INFO: Run:                          0
+2026-08-15 01:28:59  INFO: Previously run:              33
+2026-08-15 01:28:59  INFO: Filtered out:                 1
+2026-08-15 01:28:59  INFO: -------------------------------
+2026-08-15 01:28:59  INFO: Total change sets:           34
+2026-08-15 01:28:59  INFO: FILTERED CHANGE SETS SUMMARY
+2026-08-15 01:28:59  INFO: DBMS mismatch:                1
+2026-08-15 01:28:59  INFO: Update summary generated
+2026-08-15 01:28:59  INFO: Command execution complete
+2026-08-15 01:29:03  INFO: jetty-12.1.8; built: 2026-04-01T01:09:18.991Z; git: c9cdc9aaa434a3665b8a53b4d1cc3684992da649; jvm 21.0.11+10-LTS
+2026-08-15 01:29:03  INFO: Session workerName=node0
+2026-08-15 01:29:03  INFO: Started oeje10s.ServletContextHandler@1e4d8770{ROOT,/,b=file:///opt/taipan/web/,a=AVAILABLE,h=oeje10s.SessionHandler@5b5b9521{STARTED}}
+2026-08-15 01:29:06  INFO: Started oeje10s.ServletContextHandler@1e4d8770{ROOT,/,b=file:///opt/taipan/web/,a=AVAILABLE,h=oeje10s.SessionHandler@5b5b9521{STARTED}}
+2026-08-15 01:29:06  INFO: Started oejs.ServerConnector@1831447c{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2026-08-15 01:29:06  INFO: Started oejs.Server@7741507c{STARTING}[12.1.8,sto=0] @3597ms
+2026-08-15 01:29:17  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 01:29:17  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 01:32:47  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 01:32:47  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 01:35:28  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 01:35:28  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 01:41:04  INFO: Operating system name: Linux version: 6.6.87.2-microsoft-standard-WSL2 architecture: amd64
+2026-08-15 01:41:04  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 21.0.11+10-LTS
+2026-08-15 01:41:04  INFO: Memory limit heap: 1986mb non-heap: 0mb
+2026-08-15 01:41:04  INFO: Character encoding: UTF-8
+2026-08-15 01:41:04  INFO: Version: 6.14.5
+2026-08-15 01:41:04  INFO: Starting server...
+2026-08-15 01:41:05  INFO: HikariPool-1 - Starting...
+2026-08-15 01:41:06  INFO: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ff6077
+2026-08-15 01:41:06  INFO: HikariPool-1 - Start completed.
+2026-08-15 01:41:07  INFO: Successfully acquired change log lock
+2026-08-15 01:41:08  INFO: Clearing database change log checksums for database mariadb
+2026-08-15 01:41:08  INFO: Successfully released change log lock
+2026-08-15 01:41:08  INFO: Command execution complete
+2026-08-15 01:41:09  INFO: Reading from traccar.databasechangelog
+2026-08-15 01:41:11  INFO: Reading from traccar.databasechangelog
+2026-08-15 01:41:11  INFO: Reading from traccar.databasechangelog
+2026-08-15 01:41:11  INFO: UPDATE SUMMARY
+2026-08-15 01:41:11  INFO: Run:                          0
+2026-08-15 01:41:11  INFO: Previously run:              33
+2026-08-15 01:41:11  INFO: Filtered out:                 1
+2026-08-15 01:41:11  INFO: -------------------------------
+2026-08-15 01:41:11  INFO: Total change sets:           34
+2026-08-15 01:41:11  INFO: FILTERED CHANGE SETS SUMMARY
+2026-08-15 01:41:11  INFO: DBMS mismatch:                1
+2026-08-15 01:41:11  INFO: Update summary generated
+2026-08-15 01:41:11  INFO: Command execution complete
+2026-08-15 01:41:14  INFO: jetty-12.1.8; built: 2026-04-01T01:09:18.991Z; git: c9cdc9aaa434a3665b8a53b4d1cc3684992da649; jvm 21.0.11+10-LTS
+2026-08-15 01:41:14  INFO: Session workerName=node0
+2026-08-15 01:41:14  INFO: Started oeje10s.ServletContextHandler@1e4d8770{ROOT,/,b=file:///opt/taipan/web/,a=AVAILABLE,h=oeje10s.SessionHandler@5b5b9521{STARTED}}
+2026-08-15 01:41:16  INFO: Started oeje10s.ServletContextHandler@1e4d8770{ROOT,/,b=file:///opt/taipan/web/,a=AVAILABLE,h=oeje10s.SessionHandler@5b5b9521{STARTED}}
+2026-08-15 01:41:16  INFO: Started oejs.ServerConnector@1831447c{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2026-08-15 01:41:16  INFO: Started oejs.Server@7741507c{STARTING}[12.1.8,sto=0] @2074ms
+2026-08-15 01:43:03  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 01:43:03  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 01:46:46  INFO: Operating system name: Linux version: 6.6.87.2-microsoft-standard-WSL2 architecture: amd64
+2026-08-15 01:46:46  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 21.0.11+10-LTS
+2026-08-15 01:46:46  INFO: Memory limit heap: 1986mb non-heap: 0mb
+2026-08-15 01:46:46  INFO: Character encoding: UTF-8
+2026-08-15 01:46:46  INFO: Version: 6.14.5
+2026-08-15 01:46:46  INFO: Starting server...
+2026-08-15 01:46:47  INFO: HikariPool-1 - Starting...
+2026-08-15 01:46:48  INFO: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ff6077
+2026-08-15 01:46:48  INFO: HikariPool-1 - Start completed.
+2026-08-15 01:46:49  INFO: Successfully acquired change log lock
+2026-08-15 01:46:50  INFO: Clearing database change log checksums for database mariadb
+2026-08-15 01:46:50  INFO: Successfully released change log lock
+2026-08-15 01:46:50  INFO: Command execution complete
+2026-08-15 01:46:52  INFO: Reading from traccar.databasechangelog
+2026-08-15 01:46:56  INFO: Reading from traccar.databasechangelog
+2026-08-15 01:46:56  INFO: Reading from traccar.databasechangelog
+2026-08-15 01:46:56  INFO: UPDATE SUMMARY
+2026-08-15 01:46:56  INFO: Run:                          0
+2026-08-15 01:46:56  INFO: Previously run:              33
+2026-08-15 01:46:56  INFO: Filtered out:                 1
+2026-08-15 01:46:56  INFO: -------------------------------
+2026-08-15 01:46:56  INFO: Total change sets:           34
+2026-08-15 01:46:56  INFO: FILTERED CHANGE SETS SUMMARY
+2026-08-15 01:46:56  INFO: DBMS mismatch:                1
+2026-08-15 01:46:56  INFO: Update summary generated
+2026-08-15 01:46:56  INFO: Command execution complete
+2026-08-15 01:47:02  INFO: jetty-12.1.8; built: 2026-04-01T01:09:18.991Z; git: c9cdc9aaa434a3665b8a53b4d1cc3684992da649; jvm 21.0.11+10-LTS
+2026-08-15 01:47:02  INFO: Session workerName=node0
+2026-08-15 01:47:02  INFO: Started oeje10s.ServletContextHandler@1e4d8770{ROOT,/,b=file:///opt/taipan/web/,a=AVAILABLE,h=oeje10s.SessionHandler@5b5b9521{STARTED}}
+2026-08-15 01:47:04  INFO: Started oeje10s.ServletContextHandler@1e4d8770{ROOT,/,b=file:///opt/taipan/web/,a=AVAILABLE,h=oeje10s.SessionHandler@5b5b9521{STARTED}}
+2026-08-15 01:47:04  INFO: Started oejs.ServerConnector@531e2db1{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2026-08-15 01:47:04  INFO: Started oejs.Server@1831447c{STARTING}[12.1.8,sto=0] @2263ms
+2026-08-15 01:48:03  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 01:48:03  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 01:48:18  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 01:48:18  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 01:57:05  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 01:57:05  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:00:19  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:00:19  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:01:35  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:01:35  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:02:07  WARN: baseResource file:///opt/taipan/./media is not a readable directory
+2026-08-15 02:03:02  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:03:02  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:03:34  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:03:34  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:04:15  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:04:15  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:04:29  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:04:29  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:05:11  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:05:11  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:06:24  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:06:24  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:08:10  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:08:10  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:08:51  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:08:51  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:09:32  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:09:32  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:10:14  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:10:14  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:10:33  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:10:33  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:12:44  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:12:44  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:13:02  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:13:02  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:15:56  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:15:56  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:16:51  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:16:51  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:17:15  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:17:15  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:17:45  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:17:45  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:19:23  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:19:24  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:20:21  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:20:21  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:20:31  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:20:31  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:43:15  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 02:43:15  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:131 < ... < OverrideFileFilter:55 < ...)
+2026-08-15 21:26:15  INFO: Operating system name: Linux version: 6.6.87.2-microsoft-standard-WSL2 architecture: amd64
+2026-08-15 21:26:15  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 21.0.11+10-LTS
+2026-08-15 21:26:15  INFO: Memory limit heap: 1978mb non-heap: 0mb
+2026-08-15 21:26:15  INFO: Character encoding: UTF-8
+2026-08-15 21:26:15  INFO: Version: 6.14.5
+2026-08-15 21:26:15  INFO: Starting server...
+2026-08-15 21:26:17  INFO: HikariPool-1 - Starting...
+2026-08-15 21:26:21 ERROR: Main method error - Connection refused - ConnectException (... < DatabaseModule:82 < <gener:-1 < *:-1 < ... < MainModule:147 < <gener:-1 < ...)

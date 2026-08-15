@@ -3,31 +3,31 @@ services:
     build:
       context: .
       dockerfile: dockerfile.dev
-    container_name: traccar-dev
+    container_name: taipan-dev
     restart: unless-stopped
     ports:
       - "8083:8082"         
       - "6000-6300:5000-5300"
       - "6000-6300:5000-5300/udp"
     volumes:
-      - ./data:/opt/traccar/data
-      - ./logs:/opt/traccar/logs
-      - ./conf:/opt/traccar/conf
-      - ./override:/opt/traccar/override
-      - ./templates:/opt/traccar/templates
+      - ./data:/opt/taipan/data
+      - ./logs:/opt/taipan/logs
+      - ./conf:/opt/taipan/conf
+      - ./override:/opt/taipan/override
+      - ./templates:/opt/taipan/templates
     depends_on:
       - db
 
   frontend:
     build:
-      context: ./traccar-web
+      context: ./taipan-web
       dockerfile: dockerfile.dev
-    container_name: traccar-frontend-dev
+    container_name: taipan-frontend-dev
     restart: unless-stopped
     ports:
       - "3000:3000"
     volumes:
-      - ./traccar-web:/app
+      - ./taipan-web:/app
       - /app/node_modules
     environment:
       - NODE_ENV=development
@@ -37,12 +37,12 @@ services:
 
   db:
     image: mariadb:10.11
-    container_name: traccar-db-dev
+    container_name: taipan-db-dev
     restart: unless-stopped
     environment:
       MYSQL_ROOT_PASSWORD: Bbn2g3X275K
-      MYSQL_DATABASE: traccar
-      MYSQL_USER: traccar
+      MYSQL_DATABASE: taipan
+      MYSQL_USER: taipan
       MYSQL_PASSWORD: JD96jM5o5K6
     volumes:
       - ./data:/var/lib/mysql
