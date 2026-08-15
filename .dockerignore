@@ -1,0 +1,17 @@
+cd F:\16_proyectos\traccar\code\traccar-master
+@"
+.git
+.gradle
+.idea
+.vscode
+bin
+build
+target
+logs
+data
+web
+traccar-web/node_modules
+traccar-web/dist
+traccar-web/build
+*.log
+"@ | Out-File -FilePath .dockerignore -Encoding utf8

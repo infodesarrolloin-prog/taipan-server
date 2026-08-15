@@ -1,0 +1,26 @@
+﻿FROM eclipse-temurin:21-jdk AS build
+WORKDIR /build
+COPY . .
+RUN sed -i 's/\r$//' gradlew && chmod +x gradlew
+
+# Instala Node.js (necesario para que Gradle pueda compilar el frontend)
+RUN apt-get update && \
+	apt-get install -y curl && \
+	curl -fsSL https://deb.nodesource.com/setup_20.x | bash - && \
+	apt-get install -y nodejs && \
+	rm -rf /var/lib/apt/lists/*
+
+RUN ./gradlew assemble -x test --no-daemon
+
+FROM eclipse-temurin:21-jre
+WORKDIR /opt/traccar
+COPY --from=build /build/target/tracker-server.jar ./tracker-server.jar
+COPY --from=build /build/target/lib ./lib
+COPY --from=build /build/schema ./schema
+COPY --from=build /build/web ./web
+
+EXPOSE 8082
+EXPOSE 5000-5150
+EXPOSE 5000-5150/udp
+
+ENTRYPOINT ["java", "-jar", "tracker-server.jar", "conf/traccar.xml"]

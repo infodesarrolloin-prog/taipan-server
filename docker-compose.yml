@@ -1,0 +1,49 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: dockerfile.dev
+    container_name: traccar-dev
+    restart: unless-stopped
+    ports:
+      - "8083:8082"         
+      - "6000-6300:5000-5300"
+      - "6000-6300:5000-5300/udp"
+    volumes:
+      - ./data:/opt/traccar/data
+      - ./logs:/opt/traccar/logs
+      - ./conf:/opt/traccar/conf
+      - ./override:/opt/traccar/override
+      - ./templates:/opt/traccar/templates
+    depends_on:
+      - db
+
+  frontend:
+    build:
+      context: ./traccar-web
+      dockerfile: dockerfile.dev
+    container_name: traccar-frontend-dev
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./traccar-web:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+      - VITE_PROXY_TARGET=http://backend:8082
+    depends_on:
+      - backend
+
+  db:
+    image: mariadb:10.11
+    container_name: traccar-db-dev
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: Bbn2g3X275K
+      MYSQL_DATABASE: traccar
+      MYSQL_USER: traccar
+      MYSQL_PASSWORD: JD96jM5o5K6
+    volumes:
+      - ./data:/var/lib/mysql
+      - ./mysql/conf.d:/etc/mysql/conf.d:ro

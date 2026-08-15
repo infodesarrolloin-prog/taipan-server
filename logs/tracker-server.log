@@ -1,0 +1,497 @@
+2026-08-13 00:07:44  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 00:07:44  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 00:10:31  INFO: login failed from: 172.18.0.4
+2026-08-13 00:10:34  INFO: login failed from: 172.18.0.4
+2026-08-13 00:10:36  INFO: login failed from: 172.18.0.4
+2026-08-13 00:10:38  INFO: login failed from: 172.18.0.4
+2026-08-13 00:10:41  INFO: login failed from: 172.18.0.4
+2026-08-13 00:10:45  INFO: login failed from: 172.18.0.4
+2026-08-13 00:10:54  INFO: login failed from: 172.18.0.4
+2026-08-13 00:11:53  INFO: login failed from: 172.18.0.4
+2026-08-13 00:12:14  INFO: login failed from: 172.18.0.4
+2026-08-13 00:12:39  INFO: login failed from: 172.18.0.4
+2026-08-13 00:12:40  INFO: login failed from: 172.18.0.4
+2026-08-13 00:14:49  INFO: Operating system name: Linux version: 6.6.87.2-microsoft-standard-WSL2 architecture: amd64
+2026-08-13 00:14:49  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 21.0.11+10-LTS
+2026-08-13 00:14:49  INFO: Memory limit heap: 1986mb non-heap: 0mb
+2026-08-13 00:14:49  INFO: Character encoding: UTF-8
+2026-08-13 00:14:49  INFO: Version: 6.14.5
+2026-08-13 00:14:49  INFO: Starting server...
+2026-08-13 00:14:50  INFO: HikariPool-1 - Starting...
+2026-08-13 00:14:52  INFO: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@aced190
+2026-08-13 00:14:52  INFO: HikariPool-1 - Start completed.
+2026-08-13 00:14:53  INFO: Successfully acquired change log lock
+2026-08-13 00:14:53  INFO: Clearing database change log checksums for database mariadb
+2026-08-13 00:14:54  INFO: Successfully released change log lock
+2026-08-13 00:14:54  INFO: Command execution complete
+2026-08-13 00:14:55  INFO: Reading from traccar.databasechangelog
+2026-08-13 00:14:57  INFO: Reading from traccar.databasechangelog
+2026-08-13 00:14:57  INFO: Reading from traccar.databasechangelog
+2026-08-13 00:14:57  INFO: UPDATE SUMMARY
+2026-08-13 00:14:57  INFO: Run:                          0
+2026-08-13 00:14:57  INFO: Previously run:              33
+2026-08-13 00:14:57  INFO: Filtered out:                 1
+2026-08-13 00:14:57  INFO: -------------------------------
+2026-08-13 00:14:57  INFO: Total change sets:           34
+2026-08-13 00:14:57  INFO: FILTERED CHANGE SETS SUMMARY
+2026-08-13 00:14:57  INFO: DBMS mismatch:                1
+2026-08-13 00:14:57  INFO: Update summary generated
+2026-08-13 00:14:57  INFO: Command execution complete
+2026-08-13 00:15:01  INFO: jetty-12.1.8; built: 2026-04-01T01:09:18.991Z; git: c9cdc9aaa434a3665b8a53b4d1cc3684992da649; jvm 21.0.11+10-LTS
+2026-08-13 00:15:01  INFO: Session workerName=node0
+2026-08-13 00:15:01  INFO: Started oeje10s.ServletContextHandler@1f6f0fe2{ROOT,/,b=file:///opt/traccar/web/,a=AVAILABLE,h=oeje10s.SessionHandler@22604c7e{STARTED}}
+2026-08-13 00:15:04  INFO: Started oeje10s.ServletContextHandler@1f6f0fe2{ROOT,/,b=file:///opt/traccar/web/,a=AVAILABLE,h=oeje10s.SessionHandler@22604c7e{STARTED}}
+2026-08-13 00:15:04  INFO: Started oejs.ServerConnector@857f1a7{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2026-08-13 00:15:04  INFO: Started oejs.Server@682fe17b{STARTING}[12.1.8,sto=0] @3125ms
+2026-08-13 00:15:12  INFO: login failed from: 172.18.0.4
+2026-08-13 00:15:17  INFO: login failed from: 172.18.0.4
+2026-08-13 00:15:40  INFO: login failed from: 172.18.0.4
+2026-08-13 00:16:04  INFO: login failed from: 172.18.0.1
+2026-08-13 00:16:08  INFO: login failed from: 172.18.0.4
+2026-08-13 00:17:38  INFO: login failed from: 172.18.0.4
+2026-08-13 00:22:19  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 00:22:19  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 00:22:33  WARN: baseResource file:///opt/traccar/./media is not a readable directory
+2026-08-13 00:44:40  INFO: Operating system name: Linux version: 6.6.87.2-microsoft-standard-WSL2 architecture: amd64
+2026-08-13 00:44:40  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 21.0.11+10-LTS
+2026-08-13 00:44:40  INFO: Memory limit heap: 1986mb non-heap: 0mb
+2026-08-13 00:44:40  INFO: Character encoding: UTF-8
+2026-08-13 00:44:40  INFO: Version: 6.14.5
+2026-08-13 00:44:40  INFO: Starting server...
+2026-08-13 00:44:42  INFO: HikariPool-1 - Starting...
+2026-08-13 00:44:43  INFO: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@aced190
+2026-08-13 00:44:43  INFO: HikariPool-1 - Start completed.
+2026-08-13 00:44:45  INFO: Successfully acquired change log lock
+2026-08-13 00:44:45  INFO: Clearing database change log checksums for database mariadb
+2026-08-13 00:44:45  INFO: Successfully released change log lock
+2026-08-13 00:44:45  INFO: Command execution complete
+2026-08-13 00:44:48  INFO: Reading from traccar.databasechangelog
+2026-08-13 00:44:53  INFO: Reading from traccar.databasechangelog
+2026-08-13 00:44:53  INFO: Reading from traccar.databasechangelog
+2026-08-13 00:44:53  INFO: UPDATE SUMMARY
+2026-08-13 00:44:53  INFO: Run:                          0
+2026-08-13 00:44:53  INFO: Previously run:              33
+2026-08-13 00:44:53  INFO: Filtered out:                 1
+2026-08-13 00:44:53  INFO: -------------------------------
+2026-08-13 00:44:53  INFO: Total change sets:           34
+2026-08-13 00:44:53  INFO: FILTERED CHANGE SETS SUMMARY
+2026-08-13 00:44:53  INFO: DBMS mismatch:                1
+2026-08-13 00:44:53  INFO: Update summary generated
+2026-08-13 00:44:53  INFO: Command execution complete
+2026-08-13 00:44:57  INFO: jetty-12.1.8; built: 2026-04-01T01:09:18.991Z; git: c9cdc9aaa434a3665b8a53b4d1cc3684992da649; jvm 21.0.11+10-LTS
+2026-08-13 00:44:57  INFO: Session workerName=node0
+2026-08-13 00:44:57  INFO: Started oeje10s.ServletContextHandler@2ae2fa13{ROOT,/,b=file:///opt/traccar/web/,a=AVAILABLE,h=oeje10s.SessionHandler@66e12c3b{STARTED}}
+2026-08-13 00:44:58  INFO: Started oeje10s.ServletContextHandler@2ae2fa13{ROOT,/,b=file:///opt/traccar/web/,a=AVAILABLE,h=oeje10s.SessionHandler@66e12c3b{STARTED}}
+2026-08-13 00:44:58  INFO: Started oejs.ServerConnector@9976b27{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2026-08-13 00:44:58  INFO: Started oejs.Server@4fe9a396{STARTING}[12.1.8,sto=0] @1621ms
+2026-08-13 00:45:09  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 00:45:09  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 00:50:44  WARN: baseResource file:///opt/traccar/./media is not a readable directory
+2026-08-13 00:55:11  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 00:55:11  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 00:59:54  INFO: Operating system name: Linux version: 6.6.87.2-microsoft-standard-WSL2 architecture: amd64
+2026-08-13 00:59:54  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 21.0.11+10-LTS
+2026-08-13 00:59:54  INFO: Memory limit heap: 1986mb non-heap: 0mb
+2026-08-13 00:59:54  INFO: Character encoding: UTF-8
+2026-08-13 00:59:54  INFO: Version: 6.14.5
+2026-08-13 00:59:54  INFO: Starting server...
+2026-08-13 00:59:54  INFO: HikariPool-1 - Starting...
+2026-08-13 00:59:56  INFO: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@aced190
+2026-08-13 00:59:56  INFO: HikariPool-1 - Start completed.
+2026-08-13 00:59:57  INFO: Successfully acquired change log lock
+2026-08-13 00:59:57  INFO: Clearing database change log checksums for database mariadb
+2026-08-13 00:59:57  INFO: Successfully released change log lock
+2026-08-13 00:59:57  INFO: Command execution complete
+2026-08-13 00:59:58  INFO: Reading from traccar.databasechangelog
+2026-08-13 01:00:00  INFO: Reading from traccar.databasechangelog
+2026-08-13 01:00:00  INFO: Reading from traccar.databasechangelog
+2026-08-13 01:00:00  INFO: UPDATE SUMMARY
+2026-08-13 01:00:00  INFO: Run:                          0
+2026-08-13 01:00:00  INFO: Previously run:              33
+2026-08-13 01:00:00  INFO: Filtered out:                 1
+2026-08-13 01:00:00  INFO: -------------------------------
+2026-08-13 01:00:00  INFO: Total change sets:           34
+2026-08-13 01:00:00  INFO: FILTERED CHANGE SETS SUMMARY
+2026-08-13 01:00:00  INFO: DBMS mismatch:                1
+2026-08-13 01:00:00  INFO: Update summary generated
+2026-08-13 01:00:00  INFO: Command execution complete
+2026-08-13 01:00:03  INFO: jetty-12.1.8; built: 2026-04-01T01:09:18.991Z; git: c9cdc9aaa434a3665b8a53b4d1cc3684992da649; jvm 21.0.11+10-LTS
+2026-08-13 01:00:03  INFO: Session workerName=node0
+2026-08-13 01:00:03  INFO: Started oeje10s.ServletContextHandler@2ae2fa13{ROOT,/,b=file:///opt/traccar/web/,a=AVAILABLE,h=oeje10s.SessionHandler@66e12c3b{STARTED}}
+2026-08-13 01:00:04  INFO: Started oeje10s.ServletContextHandler@2ae2fa13{ROOT,/,b=file:///opt/traccar/web/,a=AVAILABLE,h=oeje10s.SessionHandler@66e12c3b{STARTED}}
+2026-08-13 01:00:04  INFO: Started oejs.ServerConnector@21affd29{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2026-08-13 01:00:04  INFO: Started oejs.Server@9976b27{STARTING}[12.1.8,sto=0] @1069ms
+2026-08-13 01:00:55  WARN: baseResource file:///opt/traccar/./media is not a readable directory
+2026-08-13 01:02:47  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 01:18:30  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 01:18:30  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 03:01:39  INFO: Operating system name: Linux version: 6.6.87.2-microsoft-standard-WSL2 architecture: amd64
+2026-08-13 03:01:39  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 21.0.11+10-LTS
+2026-08-13 03:01:39  INFO: Memory limit heap: 1986mb non-heap: 0mb
+2026-08-13 03:01:39  INFO: Character encoding: UTF-8
+2026-08-13 03:01:39  INFO: Version: 6.14.5
+2026-08-13 03:01:39  INFO: Starting server...
+2026-08-13 03:01:40  INFO: HikariPool-1 - Starting...
+2026-08-13 03:01:41  INFO: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@aced190
+2026-08-13 03:01:41  INFO: HikariPool-1 - Start completed.
+2026-08-13 03:01:42  INFO: Successfully acquired change log lock
+2026-08-13 03:01:42  INFO: Clearing database change log checksums for database mariadb
+2026-08-13 03:01:42  INFO: Successfully released change log lock
+2026-08-13 03:01:42  INFO: Command execution complete
+2026-08-13 03:01:43  INFO: Reading from traccar.databasechangelog
+2026-08-13 03:01:44  INFO: Reading from traccar.databasechangelog
+2026-08-13 03:01:44  INFO: Reading from traccar.databasechangelog
+2026-08-13 03:01:44  INFO: UPDATE SUMMARY
+2026-08-13 03:01:44  INFO: Run:                          0
+2026-08-13 03:01:44  INFO: Previously run:              33
+2026-08-13 03:01:44  INFO: Filtered out:                 1
+2026-08-13 03:01:44  INFO: -------------------------------
+2026-08-13 03:01:44  INFO: Total change sets:           34
+2026-08-13 03:01:44  INFO: FILTERED CHANGE SETS SUMMARY
+2026-08-13 03:01:44  INFO: DBMS mismatch:                1
+2026-08-13 03:01:44  INFO: Update summary generated
+2026-08-13 03:01:44  INFO: Command execution complete
+2026-08-13 03:01:47  INFO: jetty-12.1.8; built: 2026-04-01T01:09:18.991Z; git: c9cdc9aaa434a3665b8a53b4d1cc3684992da649; jvm 21.0.11+10-LTS
+2026-08-13 03:01:47  INFO: Session workerName=node0
+2026-08-13 03:01:47  INFO: Started oeje10s.ServletContextHandler@1f6f0fe2{ROOT,/,b=file:///opt/traccar/web/,a=AVAILABLE,h=oeje10s.SessionHandler@22604c7e{STARTED}}
+2026-08-13 03:01:48  INFO: Started oeje10s.ServletContextHandler@1f6f0fe2{ROOT,/,b=file:///opt/traccar/web/,a=AVAILABLE,h=oeje10s.SessionHandler@22604c7e{STARTED}}
+2026-08-13 03:01:48  INFO: Started oejs.ServerConnector@41d84abb{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2026-08-13 03:01:48  INFO: Started oejs.Server@54087bdb{STARTING}[12.1.8,sto=0] @1111ms
+2026-08-13 03:02:38  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 03:02:38  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 03:02:41  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 03:02:44  WARN: baseResource file:///opt/traccar/./media is not a readable directory
+2026-08-13 03:12:44  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 03:12:44  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 03:13:48  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 03:13:48  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 03:14:27  INFO: Stopping server...
+2026-08-13 03:16:22  INFO: Operating system name: Linux version: 6.6.87.2-microsoft-standard-WSL2 architecture: amd64
+2026-08-13 03:16:22  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 21.0.11+10-LTS
+2026-08-13 03:16:22  INFO: Memory limit heap: 1986mb non-heap: 0mb
+2026-08-13 03:16:22  INFO: Character encoding: UTF-8
+2026-08-13 03:16:22  INFO: Version: 6.14.5
+2026-08-13 03:16:22  INFO: Starting server...
+2026-08-13 03:16:23  INFO: HikariPool-1 - Starting...
+2026-08-13 03:16:25 ERROR: Main method error - Connection refused - ConnectException (... < DatabaseModule:82 < <gener:-1 < *:-1 < ... < MainModule:146 < <gener:-1 < ...)
+2026-08-13 03:18:34  INFO: Operating system name: Linux version: 6.6.87.2-microsoft-standard-WSL2 architecture: amd64
+2026-08-13 03:18:34  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 21.0.11+10-LTS
+2026-08-13 03:18:34  INFO: Memory limit heap: 1986mb non-heap: 0mb
+2026-08-13 03:18:34  INFO: Character encoding: UTF-8
+2026-08-13 03:18:34  INFO: Version: 6.14.5
+2026-08-13 03:18:34  INFO: Starting server...
+2026-08-13 03:18:35  INFO: HikariPool-1 - Starting...
+2026-08-13 03:18:37  INFO: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@aced190
+2026-08-13 03:18:37  INFO: HikariPool-1 - Start completed.
+2026-08-13 03:18:38  INFO: Successfully acquired change log lock
+2026-08-13 03:18:39  INFO: Clearing database change log checksums for database mariadb
+2026-08-13 03:18:39  INFO: Successfully released change log lock
+2026-08-13 03:18:39  INFO: Command execution complete
+2026-08-13 03:18:40  INFO: Reading from traccar.databasechangelog
+2026-08-13 03:18:42  INFO: Reading from traccar.databasechangelog
+2026-08-13 03:18:42  INFO: Reading from traccar.databasechangelog
+2026-08-13 03:18:42  INFO: UPDATE SUMMARY
+2026-08-13 03:18:42  INFO: Run:                          0
+2026-08-13 03:18:42  INFO: Previously run:              33
+2026-08-13 03:18:42  INFO: Filtered out:                 1
+2026-08-13 03:18:42  INFO: -------------------------------
+2026-08-13 03:18:42  INFO: Total change sets:           34
+2026-08-13 03:18:42  INFO: FILTERED CHANGE SETS SUMMARY
+2026-08-13 03:18:42  INFO: DBMS mismatch:                1
+2026-08-13 03:18:42  INFO: Update summary generated
+2026-08-13 03:18:42  INFO: Command execution complete
+2026-08-13 03:18:45  INFO: jetty-12.1.8; built: 2026-04-01T01:09:18.991Z; git: c9cdc9aaa434a3665b8a53b4d1cc3684992da649; jvm 21.0.11+10-LTS
+2026-08-13 03:18:45  INFO: Session workerName=node0
+2026-08-13 03:18:45  INFO: Started oeje10s.ServletContextHandler@2ae2fa13{ROOT,/,b=file:///opt/traccar/web/,a=AVAILABLE,h=oeje10s.SessionHandler@66e12c3b{STARTED}}
+2026-08-13 03:18:47  INFO: Started oeje10s.ServletContextHandler@2ae2fa13{ROOT,/,b=file:///opt/traccar/web/,a=AVAILABLE,h=oeje10s.SessionHandler@66e12c3b{STARTED}}
+2026-08-13 03:18:47  INFO: Started oejs.ServerConnector@6716b6c9{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2026-08-13 03:18:47  INFO: Started oejs.Server@9976b27{STARTING}[12.1.8,sto=0] @1662ms
+2026-08-13 03:27:27  INFO: Operating system name: Linux version: 6.6.87.2-microsoft-standard-WSL2 architecture: amd64
+2026-08-13 03:27:27  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 21.0.11+10-LTS
+2026-08-13 03:27:27  INFO: Memory limit heap: 1986mb non-heap: 0mb
+2026-08-13 03:27:27  INFO: Character encoding: UTF-8
+2026-08-13 03:27:27  INFO: Version: 6.14.5
+2026-08-13 03:27:27  INFO: Starting server...
+2026-08-13 03:27:27  INFO: HikariPool-1 - Starting...
+2026-08-13 03:27:29  INFO: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@aced190
+2026-08-13 03:27:29  INFO: HikariPool-1 - Start completed.
+2026-08-13 03:27:30  INFO: Successfully acquired change log lock
+2026-08-13 03:27:30  INFO: Clearing database change log checksums for database mariadb
+2026-08-13 03:27:30  INFO: Successfully released change log lock
+2026-08-13 03:27:30  INFO: Command execution complete
+2026-08-13 03:27:31  INFO: Reading from traccar.databasechangelog
+2026-08-13 03:27:33  INFO: Reading from traccar.databasechangelog
+2026-08-13 03:27:33  INFO: Reading from traccar.databasechangelog
+2026-08-13 03:27:33  INFO: UPDATE SUMMARY
+2026-08-13 03:27:33  INFO: Run:                          0
+2026-08-13 03:27:33  INFO: Previously run:              33
+2026-08-13 03:27:33  INFO: Filtered out:                 1
+2026-08-13 03:27:33  INFO: -------------------------------
+2026-08-13 03:27:33  INFO: Total change sets:           34
+2026-08-13 03:27:33  INFO: FILTERED CHANGE SETS SUMMARY
+2026-08-13 03:27:33  INFO: DBMS mismatch:                1
+2026-08-13 03:27:33  INFO: Update summary generated
+2026-08-13 03:27:33  INFO: Command execution complete
+2026-08-13 03:27:39  INFO: jetty-12.1.8; built: 2026-04-01T01:09:18.991Z; git: c9cdc9aaa434a3665b8a53b4d1cc3684992da649; jvm 21.0.11+10-LTS
+2026-08-13 03:27:39  INFO: Session workerName=node0
+2026-08-13 03:27:39  INFO: Started oeje10s.ServletContextHandler@1f6f0fe2{ROOT,/,b=file:///opt/traccar/web/,a=AVAILABLE,h=oeje10s.SessionHandler@22604c7e{STARTED}}
+2026-08-13 03:27:41  INFO: Started oeje10s.ServletContextHandler@1f6f0fe2{ROOT,/,b=file:///opt/traccar/web/,a=AVAILABLE,h=oeje10s.SessionHandler@22604c7e{STARTED}}
+2026-08-13 03:27:41  INFO: Started oejs.ServerConnector@41d84abb{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2026-08-13 03:27:41  INFO: Started oejs.Server@54087bdb{STARTING}[12.1.8,sto=0] @1467ms
+2026-08-13 03:28:02  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 03:28:02  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 03:28:07  WARN: baseResource file:///opt/traccar/./media is not a readable directory
+2026-08-13 03:42:16  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 03:42:16  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 03:59:12  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 03:59:12  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 04:01:14  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 04:01:14  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 04:04:09  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 04:04:09  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 04:04:53  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 04:04:53  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 04:09:54  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:09:54  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:09:55  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:09:55  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:09:55  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:09:55  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:09:56  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:09:56  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:09:56  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:09:57  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:09:57  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:09:57  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:09:57  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:09:57  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:09:57  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:09:58  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:09:58  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:09:58  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:09:59  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:09:59  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:09:59  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:09:59  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:00  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:00  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:00  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:00  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:01  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:01  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:01  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:01  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:01  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:02  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:02  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:02  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:02  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:02  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:02  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:03  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:03  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:03  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:03  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:04  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:04  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:04  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:04  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:04  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:04  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:05  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:05  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:05  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:05  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:06  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:06  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:06  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:06  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:06  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:06  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:07  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:07  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:07  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:07  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:07  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:07  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:08  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:08  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:08  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:08  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:08  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:08  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:09  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:09  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:09  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:09  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:09  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:10  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:10  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:10  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:10  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:10  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:11  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:11  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:11  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:11  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:11  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:44  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:44  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:44  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:44  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:44  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:45  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:45  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:45  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:45  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:45  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:45  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:46  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:46  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:46  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:46  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:46  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:46  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:47  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:47  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:47  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:47  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:47  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:48  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:48  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:48  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:48  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:48  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:49  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:49  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:49  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:49  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:49  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:50  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:50  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:50  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:50  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:50  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:50  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:50  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:51  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:51  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:51  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:52  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:52  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:52  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:52  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:52  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:52  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:53  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:53  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:53  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:53  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:53  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:54  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:54  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:54  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:54  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:54  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:54  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:55  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:55  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:55  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:55  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:55  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:55  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:56  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:56  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:56  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:56  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:56  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:56  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:57  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:57  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:57  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:57  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:57  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:57  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:58  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:58  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:58  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:58  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:58  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:58  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:59  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:59  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:59  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:59  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:191 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:10:59  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ReportUtils:201 < *:278 < *:435 < *:289 < TripsReportProvider:65 < ReportResource:285 < ...)
+2026-08-13 04:15:22  INFO: Stopping server...
+2026-08-13 04:17:31  INFO: Operating system name: Linux version: 6.6.87.2-microsoft-standard-WSL2 architecture: amd64
+2026-08-13 04:17:31  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 21.0.11+10-LTS
+2026-08-13 04:17:31  INFO: Memory limit heap: 1986mb non-heap: 0mb
+2026-08-13 04:17:31  INFO: Character encoding: UTF-8
+2026-08-13 04:17:31  INFO: Version: 6.14.5
+2026-08-13 04:17:31  INFO: Starting server...
+2026-08-13 04:17:32  INFO: HikariPool-1 - Starting...
+2026-08-13 04:17:33  INFO: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@aced190
+2026-08-13 04:17:33  INFO: HikariPool-1 - Start completed.
+2026-08-13 04:17:34  INFO: Successfully acquired change log lock
+2026-08-13 04:17:34  INFO: Clearing database change log checksums for database mariadb
+2026-08-13 04:17:35  INFO: Successfully released change log lock
+2026-08-13 04:17:35  INFO: Command execution complete
+2026-08-13 04:17:35  INFO: Reading from traccar.databasechangelog
+2026-08-13 04:17:37  INFO: Reading from traccar.databasechangelog
+2026-08-13 04:17:37  INFO: Reading from traccar.databasechangelog
+2026-08-13 04:17:37  INFO: UPDATE SUMMARY
+2026-08-13 04:17:37  INFO: Run:                          0
+2026-08-13 04:17:37  INFO: Previously run:              33
+2026-08-13 04:17:37  INFO: Filtered out:                 1
+2026-08-13 04:17:37  INFO: -------------------------------
+2026-08-13 04:17:37  INFO: Total change sets:           34
+2026-08-13 04:17:37  INFO: FILTERED CHANGE SETS SUMMARY
+2026-08-13 04:17:37  INFO: DBMS mismatch:                1
+2026-08-13 04:17:37  INFO: Update summary generated
+2026-08-13 04:17:37  INFO: Command execution complete
+2026-08-13 04:17:43  INFO: jetty-12.1.8; built: 2026-04-01T01:09:18.991Z; git: c9cdc9aaa434a3665b8a53b4d1cc3684992da649; jvm 21.0.11+10-LTS
+2026-08-13 04:17:44  INFO: Session workerName=node0
+2026-08-13 04:17:44  INFO: Started oeje10s.ServletContextHandler@2ae2fa13{ROOT,/,b=file:///opt/traccar/web/,a=AVAILABLE,h=oeje10s.SessionHandler@66e12c3b{STARTED}}
+2026-08-13 04:17:45  INFO: Started oeje10s.ServletContextHandler@2ae2fa13{ROOT,/,b=file:///opt/traccar/web/,a=AVAILABLE,h=oeje10s.SessionHandler@66e12c3b{STARTED}}
+2026-08-13 04:17:45  INFO: Started oejs.ServerConnector@9976b27{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2026-08-13 04:17:45  INFO: Started oejs.Server@4fe9a396{STARTING}[12.1.8,sto=0] @1273ms
+2026-08-13 04:18:05  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 04:18:05  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 04:29:20  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 04:29:20  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 04:37:56  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-13 04:37:56  WARN: Geocoder network error - HTTP 429 Too Many Requests - ClientErrorException (... < JsonGeocoder:152 < ServerResource:129 < ... < WebServer:130 < ... < OverrideFileFilter:55 < ...)
+2026-08-14 20:40:43  INFO: Operating system name: Linux version: 6.6.87.2-microsoft-standard-WSL2 architecture: amd64
+2026-08-14 20:40:43  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 21.0.11+10-LTS
+2026-08-14 20:40:43  INFO: Memory limit heap: 1986mb non-heap: 0mb
+2026-08-14 20:40:43  INFO: Character encoding: UTF-8
+2026-08-14 20:40:43  INFO: Version: 6.14.5
+2026-08-14 20:40:43  INFO: Starting server...
+2026-08-14 20:40:44  INFO: HikariPool-1 - Starting...
+2026-08-14 20:40:46  INFO: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@aced190
+2026-08-14 20:40:46  INFO: HikariPool-1 - Start completed.
+2026-08-14 20:40:49  INFO: Successfully acquired change log lock
+2026-08-14 20:40:49  INFO: Clearing database change log checksums for database mariadb
+2026-08-14 20:40:49  INFO: Successfully released change log lock
+2026-08-14 20:40:49  INFO: Command execution complete
+2026-08-14 20:40:51  INFO: Reading from traccar.databasechangelog
+2026-08-14 20:40:55  INFO: Reading from traccar.databasechangelog
+2026-08-14 20:40:55  INFO: Reading from traccar.databasechangelog
+2026-08-14 20:40:55  INFO: UPDATE SUMMARY
+2026-08-14 20:40:55  INFO: Run:                          0
+2026-08-14 20:40:55  INFO: Previously run:              33
+2026-08-14 20:40:55  INFO: Filtered out:                 1
+2026-08-14 20:40:55  INFO: -------------------------------
+2026-08-14 20:40:55  INFO: Total change sets:           34
+2026-08-14 20:40:55  INFO: FILTERED CHANGE SETS SUMMARY
+2026-08-14 20:40:55  INFO: DBMS mismatch:                1
+2026-08-14 20:40:55  INFO: Update summary generated
+2026-08-14 20:40:55  INFO: Command execution complete
+2026-08-14 20:40:59  INFO: jetty-12.1.8; built: 2026-04-01T01:09:18.991Z; git: c9cdc9aaa434a3665b8a53b4d1cc3684992da649; jvm 21.0.11+10-LTS
+2026-08-14 20:40:59  INFO: Session workerName=node0
+2026-08-14 20:40:59  INFO: Started oeje10s.ServletContextHandler@1f6f0fe2{ROOT,/,b=file:///opt/traccar/web/,a=AVAILABLE,h=oeje10s.SessionHandler@22604c7e{STARTED}}
+2026-08-14 20:41:01  INFO: Started oeje10s.ServletContextHandler@1f6f0fe2{ROOT,/,b=file:///opt/traccar/web/,a=AVAILABLE,h=oeje10s.SessionHandler@22604c7e{STARTED}}
+2026-08-14 20:41:01  INFO: Started oejs.ServerConnector@41d84abb{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2026-08-14 20:41:01  INFO: Started oejs.Server@54087bdb{STARTING}[12.1.8,sto=0] @1631ms
+2026-08-14 21:04:06  INFO: Stopping server...

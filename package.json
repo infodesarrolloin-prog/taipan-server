@@ -1,0 +1,9 @@
+{
+  "name": "traccar-dev-tools",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "db:import": "node ./scripts/run-import.js",
+    "db:watch": "node ./scripts/watch-import.js"
+  }
+}

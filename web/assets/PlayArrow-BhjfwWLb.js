@@ -1,0 +1,1 @@
+import{C as e,xt as t}from"./mui-DjnGLk-3.js";var n=e((0,t().jsx)(`path`,{d:`M8 5v14l11-7z`}),`PlayArrow`);export{n as t};

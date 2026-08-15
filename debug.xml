@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key='web.address'>0.0.0.0</entry>
+    <entry key='web.port'>8083</entry>
+    <entry key='web.path'>traccar-web/build</entry>
+    <entry key='web.debug'>true</entry>
+    
+    <entry key='database.driver'>org.h2.Driver</entry>
+    <entry key='database.url'>jdbc:h2:./target/database</entry>
+    <entry key='database.user'>sa</entry>
+    <entry key='database.password'></entry>
+    
+    <entry key='logger.console'>true</entry>
+    <entry key='logger.level'>INFO</entry>
+</properties>

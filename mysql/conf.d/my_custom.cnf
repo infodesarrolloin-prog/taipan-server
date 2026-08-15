@@ -1,0 +1,8 @@
+[mysqld]
+# Increase packet size to allow large imports
+max_allowed_packet=134217728
+# Increase network read/write timeouts
+net_read_timeout=120
+net_write_timeout=120
+# Keep connections alive longer
+wait_timeout=28800
