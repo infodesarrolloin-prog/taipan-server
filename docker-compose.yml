@@ -3,16 +3,15 @@ services:
     build:
       context: .
       dockerfile: dockerfile.dev
-    container_name: taipan-dev
+    container_name: taipan-backend-dv
     restart: unless-stopped
     ports:
-      - "8083:8082"         
+      - "8083:8082"
       - "6000-6300:5000-5300"
       - "6000-6300:5000-5300/udp"
     volumes:
       - ./data:/opt/taipan/data
       - ./logs:/opt/taipan/logs
-      - ./conf:/opt/taipan/conf
       - ./override:/opt/taipan/override
       - ./templates:/opt/taipan/templates
     depends_on:
@@ -21,14 +20,11 @@ services:
   frontend:
     build:
       context: ./taipan-web
-      dockerfile: dockerfile.dev
+      dockerfile: Dockerfile.dev
     container_name: taipan-frontend-dev
     restart: unless-stopped
     ports:
       - "3000:3000"
-    volumes:
-      - ./taipan-web:/app
-      - /app/node_modules
     environment:
       - NODE_ENV=development
       - VITE_PROXY_TARGET=http://backend:8082
@@ -37,7 +33,7 @@ services:
 
   db:
     image: mariadb:10.11
-    container_name: taipan-db-dev
+    container_name: taipan-database-dev
     restart: unless-stopped
     environment:
       MYSQL_ROOT_PASSWORD: Bbn2g3X275K
@@ -45,5 +41,8 @@ services:
       MYSQL_USER: taipan
       MYSQL_PASSWORD: JD96jM5o5K6
     volumes:
-      - ./data:/var/lib/mysql
+      - taipan_db_data:/var/lib/mysql
       - ./mysql/conf.d:/etc/mysql/conf.d:ro
+
+volumes:
+  taipan_db_data:

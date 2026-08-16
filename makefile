@@ -2,13 +2,13 @@
 
 .PHONY: import-db backup-db
 
-DB_CONTAINER=traccar-db-dev
-DUMP_PATH=database/traccar_backup.sql
+DB_CONTAINER=taipan-db-dev
+DUMP_PATH=database/taipan_backup.sql
 
 import-db:
 	@if [ -f "$(DUMP_PATH)" ]; then \
 		echo "Importing $(DUMP_PATH) into container $(DB_CONTAINER)..."; \
-		docker exec -i $(DB_CONTAINER) sh -c 'exec mysql -u root -p"$$MYSQL_ROOT_PASSWORD" traccar' < $(DUMP_PATH); \
+		docker exec -i $(DB_CONTAINER) sh -c 'exec mysql -u root -p"$$MYSQL_ROOT_PASSWORD" taipan' < $(DUMP_PATH); \
 		echo "Import finished."; \
 	else \
 		echo "Dump not found: $(DUMP_PATH)"; exit 1; \
@@ -16,5 +16,5 @@ import-db:
 
 backup-db:
 	@echo "Creating SQL dump from container $(DB_CONTAINER) into backup-before-import.sql..."
-	@docker exec $(DB_CONTAINER) sh -c 'exec mysqldump -u root -p"$$MYSQL_ROOT_PASSWORD" traccar' > backup-before-import.sql
+	@docker exec $(DB_CONTAINER) sh -c 'exec mysqldump -u root -p"$$MYSQL_ROOT_PASSWORD" taipan' > backup-before-import.sql
 	@echo "Backup saved to backup-before-import.sql"

@@ -738,3 +738,206 @@
 2026-08-15 21:28:42  INFO: Started oejs.ServerConnector@1831447c{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
 2026-08-15 21:28:42  INFO: Started oejs.Server@7741507c{STARTING}[12.1.8,sto=0] @2108ms
 2026-08-15 21:37:18  WARN: baseResource file:///opt/taipan/./media is not a readable directory
+2026-08-15 23:01:02  INFO: [T5566e440] connected
+2026-08-15 23:01:02  INFO: [T5566e440: osmand < 172.18.0.1] POST / HTTP/1.1\r\nAccept: */*\r\nUser-Agent: ktor-client\r\nContent-Type: application/x-www-form-urlencoded; charset=UTF-8\r\nContent-Length: 148\r\nHost: 192.168.1.2:6055\r\nConnection: Keep-Alive\r\nAccept-Encoding: gzip\r\n\r\nid=10430479&lat=7.1203296&lon=-73.1352047&timestamp=1786833814&accuracy=25.211999893188477&altitude=934.3999633789062&speed=0.0&batt=96&charge=false
+2026-08-15 23:01:03  INFO: [T5566e440: osmand > 172.18.0.1] HTTP/1.1 200 OK\r\ncontent-length: 0\r\n\r\n
+2026-08-15 23:01:03  INFO: [T5566e440: osmand < 172.18.0.1] POST / HTTP/1.1\r\nAccept: */*\r\nUser-Agent: ktor-client\r\nContent-Type: application/x-www-form-urlencoded; charset=UTF-8\r\nContent-Length: 175\r\nHost: 192.168.1.2:6055\r\nConnection: Keep-Alive\r\nAccept-Encoding: gzip\r\n\r\nid=10430479&lat=7.1203207&lon=-73.1352006&timestamp=1786833867&accuracy=29.92300033569336&altitude=934.3999633789062&speed=0.28&bearing=230.37840270996094&batt=96&charge=false
+2026-08-15 23:01:03  INFO: [T5566e440: osmand > 172.18.0.1] HTTP/1.1 200 OK\r\ncontent-length: 0\r\n\r\n
+2026-08-15 23:01:06  INFO: [T5566e440] id: 10430479, time: 2026-08-15 22:43:34, lat: 7.12033, lon: -73.13520, course: 0.0, accuracy: 25.2
+2026-08-15 23:01:06  INFO: [T5566e440] id: 10430479, time: 2026-08-15 22:44:27, lat: 7.12032, lon: -73.13520, speed: 0.3, course: 230.4, accuracy: 29.9
+2026-08-15 23:06:03  INFO: [T5566e440] disconnected
+2026-08-15 23:10:49  INFO: [T9f995403] connected
+2026-08-15 23:10:49  INFO: [T9f995403: osmand < 172.18.0.1] POST / HTTP/1.1\r\nAccept: */*\r\nUser-Agent: ktor-client\r\nContent-Type: application/x-www-form-urlencoded; charset=UTF-8\r\nContent-Length: 126\r\nHost: 192.168.1.2:6055\r\nConnection: Keep-Alive\r\nAccept-Encoding: gzip\r\n\r\nid=10430479&lat=7.1203264&lon=-73.1351983&timestamp=1786835450&accuracy=14.555000305175781&altitude=934.5&batt=94&charge=false
+2026-08-15 23:10:49  INFO: [T9f995403: osmand > 172.18.0.1] HTTP/1.1 200 OK\r\ncontent-length: 0\r\n\r\n
+2026-08-15 23:10:49  INFO: [T9f995403: osmand < 172.18.0.1] POST / HTTP/1.1\r\nAccept: */*\r\nUser-Agent: ktor-client\r\nContent-Type: application/x-www-form-urlencoded; charset=UTF-8\r\nContent-Length: 136\r\nHost: 192.168.1.2:6055\r\nConnection: Keep-Alive\r\nAccept-Encoding: gzip\r\n\r\nid=10430479&lat=7.1203264&lon=-73.1351983&timestamp=1786835450&accuracy=14.555000305175781&altitude=934.5&batt=94&charge=false&alarm=sos
+2026-08-15 23:10:49  INFO: [T9f995403: osmand > 172.18.0.1] HTTP/1.1 200 OK\r\ncontent-length: 0\r\n\r\n
+2026-08-15 23:10:50  INFO: [Td00a2741] connected
+2026-08-15 23:10:50  INFO: [Td00a2741: osmand < 172.18.0.1] POST / HTTP/1.1\r\nuser-agent: Dart/3.12 (dart:io)\r\ncontent-type: application/x-www-form-urlencoded\r\ntransfer-encoding: chunked\r\naccept-encoding: gzip\r\nhost: 192.168.1.2:6055\r\n\r\nAE\r\nid=10430479&notificationToken=dTpDsDKrQXmwkjHH6IzsVV%3AAPA91bGG33bWRc4r-FOHxOXxfzV8OVLuBaDNI8Ey0ty0bz6YATKijgbm5Qbzs3eCUBgYvpyuUMovd3AUyuWdIzM86c0GXOCrnIRdmbiYtZ4EwitIjMONiO4\r\n0\r\n\r\n
+2026-08-15 23:10:50  INFO: [Td00a2741: osmand > 172.18.0.1] HTTP/1.1 200 OK\r\ncontent-length: 0\r\n\r\n
+2026-08-15 23:10:52  INFO: [T9f995403] id: 10430479, time: 2026-08-15 23:10:50, lat: 7.12033, lon: -73.13520, course: 0.0, accuracy: 14.6
+2026-08-15 23:10:52  INFO: Event id: 10430479, time: 2026-08-15 23:10:50, type: alarm, notifications: 0
+2026-08-15 23:10:52  INFO: [T9f995403] id: 10430479, time: 2026-08-15 23:10:50, lat: 7.12033, lon: -73.13520, course: 0.0, accuracy: 14.6
+2026-08-15 23:10:53  INFO: [Td00a2741] id: 10430479, time: 2026-08-15 23:10:50, lat: 7.12033, lon: -73.13520, course: 0.0, accuracy: 14.6
+2026-08-15 23:11:05  INFO: [Td00a2741] disconnected
+2026-08-15 23:11:09  INFO: [T9f995403: osmand < 172.18.0.1] POST / HTTP/1.1\r\nAccept: */*\r\nUser-Agent: ktor-client\r\nContent-Type: application/x-www-form-urlencoded; charset=UTF-8\r\nContent-Length: 145\r\nHost: 192.168.1.2:6055\r\nConnection: Keep-Alive\r\nAccept-Encoding: gzip\r\n\r\nid=10430479&lat=7.1202328&lon=-73.135169&timestamp=1786835472&accuracy=12.307999610900879&altitude=934.5&speed=0.0&batt=94&charge=false&alarm=sos
+2026-08-15 23:11:09  INFO: [T9f995403: osmand > 172.18.0.1] HTTP/1.1 200 OK\r\ncontent-length: 0\r\n\r\n
+2026-08-15 23:11:11  INFO: [Te82577e1] connected
+2026-08-15 23:11:11  INFO: [Te82577e1: osmand < 172.18.0.1] POST / HTTP/1.1\r\nuser-agent: Dart/3.12 (dart:io)\r\ncontent-type: application/x-www-form-urlencoded\r\ntransfer-encoding: chunked\r\naccept-encoding: gzip\r\nhost: 192.168.1.2:6055\r\n\r\nAE\r\nid=10430479&notificationToken=dTpDsDKrQXmwkjHH6IzsVV%3AAPA91bGG33bWRc4r-FOHxOXxfzV8OVLuBaDNI8Ey0ty0bz6YATKijgbm5Qbzs3eCUBgYvpyuUMovd3AUyuWdIzM86c0GXOCrnIRdmbiYtZ4EwitIjMONiO4\r\n0\r\n\r\n
+2026-08-15 23:11:11  INFO: [Te82577e1: osmand > 172.18.0.1] HTTP/1.1 200 OK\r\ncontent-length: 0\r\n\r\n
+2026-08-15 23:11:14  INFO: [Te82577e1] id: 10430479, time: 2026-08-15 23:10:50, lat: 7.12033, lon: -73.13520, course: 0.0, accuracy: 14.6
+2026-08-15 23:11:14  INFO: Event id: 10430479, time: 2026-08-15 23:11:12, type: alarm, notifications: 0
+2026-08-15 23:11:14  INFO: [T9f995403] id: 10430479, time: 2026-08-15 23:11:12, lat: 7.12023, lon: -73.13517, course: 0.0, accuracy: 12.3
+2026-08-15 23:11:26  INFO: [Te82577e1] disconnected
+2026-08-15 23:16:09  INFO: [T9f995403] disconnected
+2026-08-15 23:31:02  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6173f24 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-15 23:31:12  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@72234e75 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-15 23:31:20  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1391c461 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-15 23:31:22  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3ddd1182 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-15 23:31:28  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@10ef217a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-15 23:31:29  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@ab9a802 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-15 23:31:32  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4fc31fa1 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-15 23:31:58  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5311fb16 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-15 23:32:00  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2beb4264 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-15 23:32:00  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@49ba7e02 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-15 23:32:01  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@18d8ff3d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-15 23:32:05  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3dd7aca (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-15 23:32:07  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3ed0a14f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-15 23:32:09  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@25a18a2f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-15 23:32:09  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@b2164ce (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-15 23:32:14  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7af126ff (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-15 23:32:17  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@498f18eb (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-15 23:32:24  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2872cec2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-15 23:32:26  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@75d4f1c4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-15 23:32:32  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@70b8f0e0 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-16 00:26:07  INFO: Operating system name: Linux version: 6.6.87.2-microsoft-standard-WSL2 architecture: amd64
+2026-08-16 00:26:07  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 21.0.11+10-LTS
+2026-08-16 00:26:07  INFO: Memory limit heap: 1978mb non-heap: 0mb
+2026-08-16 00:26:07  INFO: Character encoding: UTF-8
+2026-08-16 00:26:07  INFO: Version: 6.14.5
+2026-08-16 00:26:07  INFO: Starting server...
+2026-08-16 00:26:08  INFO: HikariPool-1 - Starting...
+2026-08-16 00:26:08  INFO: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ff6077
+2026-08-16 00:26:08  INFO: HikariPool-1 - Start completed.
+2026-08-16 00:26:10  INFO: Successfully acquired change log lock
+2026-08-16 00:26:10  INFO: Clearing database change log checksums for database mariadb
+2026-08-16 00:26:10  INFO: Successfully released change log lock
+2026-08-16 00:26:10  INFO: Command execution complete
+2026-08-16 00:26:11  INFO: Reading from traccar.databasechangelog
+2026-08-16 00:26:14  INFO: Reading from traccar.databasechangelog
+2026-08-16 00:26:14  INFO: Reading from traccar.databasechangelog
+2026-08-16 00:26:14  INFO: UPDATE SUMMARY
+2026-08-16 00:26:14  INFO: Run:                          0
+2026-08-16 00:26:14  INFO: Previously run:              33
+2026-08-16 00:26:14  INFO: Filtered out:                 1
+2026-08-16 00:26:14  INFO: -------------------------------
+2026-08-16 00:26:14  INFO: Total change sets:           34
+2026-08-16 00:26:14  INFO: FILTERED CHANGE SETS SUMMARY
+2026-08-16 00:26:14  INFO: DBMS mismatch:                1
+2026-08-16 00:26:14  INFO: Update summary generated
+2026-08-16 00:26:14  INFO: Command execution complete
+2026-08-16 00:26:17  INFO: jetty-12.1.8; built: 2026-04-01T01:09:18.991Z; git: c9cdc9aaa434a3665b8a53b4d1cc3684992da649; jvm 21.0.11+10-LTS
+2026-08-16 00:26:17  INFO: Session workerName=node0
+2026-08-16 00:26:17  INFO: Started oeje10s.ServletContextHandler@66314fee{ROOT,/,b=file:///opt/taipan/web/,a=AVAILABLE,h=oeje10s.SessionHandler@14b5325f{STARTED}}
+2026-08-16 00:26:21  INFO: Started oeje10s.ServletContextHandler@66314fee{ROOT,/,b=file:///opt/taipan/web/,a=AVAILABLE,h=oeje10s.SessionHandler@14b5325f{STARTED}}
+2026-08-16 00:26:21  INFO: Started oejs.ServerConnector@1ba3c03d{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2026-08-16 00:26:21  INFO: Started oejs.Server@9a37591{STARTING}[12.1.8,sto=0] @3509ms
+2026-08-16 00:34:08  INFO: Operating system name: Linux version: 6.6.87.2-microsoft-standard-WSL2 architecture: amd64
+2026-08-16 00:34:08  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 21.0.11+10-LTS
+2026-08-16 00:34:08  INFO: Memory limit heap: 1978mb non-heap: 0mb
+2026-08-16 00:34:08  INFO: Character encoding: UTF-8
+2026-08-16 00:34:08  INFO: Version: 6.14.5
+2026-08-16 00:34:08  INFO: Starting server...
+2026-08-16 00:34:08  INFO: HikariPool-1 - Starting...
+2026-08-16 00:34:09  INFO: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ff6077
+2026-08-16 00:34:09  INFO: HikariPool-1 - Start completed.
+2026-08-16 00:34:11  INFO: Successfully acquired change log lock
+2026-08-16 00:34:11  INFO: Clearing database change log checksums for database mariadb
+2026-08-16 00:34:11  INFO: Successfully released change log lock
+2026-08-16 00:34:11  INFO: Command execution complete
+2026-08-16 00:34:12  INFO: Reading from traccar.databasechangelog
+2026-08-16 00:34:15  INFO: Reading from traccar.databasechangelog
+2026-08-16 00:34:15  INFO: Reading from traccar.databasechangelog
+2026-08-16 00:34:15  INFO: UPDATE SUMMARY
+2026-08-16 00:34:15  INFO: Run:                          0
+2026-08-16 00:34:15  INFO: Previously run:              33
+2026-08-16 00:34:15  INFO: Filtered out:                 1
+2026-08-16 00:34:15  INFO: -------------------------------
+2026-08-16 00:34:15  INFO: Total change sets:           34
+2026-08-16 00:34:15  INFO: FILTERED CHANGE SETS SUMMARY
+2026-08-16 00:34:15  INFO: DBMS mismatch:                1
+2026-08-16 00:34:15  INFO: Update summary generated
+2026-08-16 00:34:15  INFO: Command execution complete
+2026-08-16 00:34:20  INFO: jetty-12.1.8; built: 2026-04-01T01:09:18.991Z; git: c9cdc9aaa434a3665b8a53b4d1cc3684992da649; jvm 21.0.11+10-LTS
+2026-08-16 00:34:21  INFO: Session workerName=node0
+2026-08-16 00:34:21  INFO: Started oeje10s.ServletContextHandler@66314fee{ROOT,/,b=file:///opt/taipan/web/,a=AVAILABLE,h=oeje10s.SessionHandler@14b5325f{STARTED}}
+2026-08-16 00:34:24  INFO: Started oeje10s.ServletContextHandler@66314fee{ROOT,/,b=file:///opt/taipan/web/,a=AVAILABLE,h=oeje10s.SessionHandler@14b5325f{STARTED}}
+2026-08-16 00:34:24  INFO: Started oejs.ServerConnector@1ba3c03d{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2026-08-16 00:34:24  INFO: Started oejs.Server@9a37591{STARTING}[12.1.8,sto=0] @4373ms
+2026-08-16 00:37:22  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@683f2db8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-16 00:37:22  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@ff6077 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-16 00:37:24  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@315bdb95 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-16 00:37:26  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3308fee4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-16 00:37:27  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1e305260 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-16 00:37:27  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@27b8f326 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-16 00:37:29  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@f2e49fc (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-16 00:37:31  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2252ca5c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-16 00:37:34  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@41940fb4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-16 00:37:36  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2e6f5228 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-16 00:37:37  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@351650cd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-16 00:37:39  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@20fef499 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-16 00:37:42  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3310006 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-16 00:37:43  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@8dc7d2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-16 00:37:47  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3ae3b529 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-16 00:37:51  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@63094f9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-16 00:37:52  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5d69669d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-16 00:37:59  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5cf95edc (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-16 00:38:05  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2c39d10c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-16 00:38:09  WARN: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@723bacc7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-16 00:46:21  WARN: baseResource file:///opt/taipan/./media is not a readable directory
+2026-08-16 00:47:26  INFO: Stopping server...
+2026-08-16 00:50:55  INFO: Operating system name: Linux version: 6.6.87.2-microsoft-standard-WSL2 architecture: amd64
+2026-08-16 00:50:55  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 21.0.11+10-LTS
+2026-08-16 00:50:55  INFO: Memory limit heap: 1978mb non-heap: 0mb
+2026-08-16 00:50:55  INFO: Character encoding: UTF-8
+2026-08-16 00:50:55  INFO: Version: 6.14.5
+2026-08-16 00:50:55  INFO: Starting server...
+2026-08-16 00:50:56  INFO: HikariPool-1 - Starting...
+2026-08-16 00:50:57  INFO: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ff6077
+2026-08-16 00:50:57  INFO: HikariPool-1 - Start completed.
+2026-08-16 00:50:58  INFO: Successfully acquired change log lock
+2026-08-16 00:50:58  INFO: Clearing database change log checksums for database mariadb
+2026-08-16 00:50:58  INFO: Successfully released change log lock
+2026-08-16 00:50:58  INFO: Command execution complete
+2026-08-16 00:51:00  INFO: Reading from traccar.databasechangelog
+2026-08-16 00:51:02  INFO: Reading from traccar.databasechangelog
+2026-08-16 00:51:02  INFO: Reading from traccar.databasechangelog
+2026-08-16 00:51:02  INFO: UPDATE SUMMARY
+2026-08-16 00:51:02  INFO: Run:                          0
+2026-08-16 00:51:02  INFO: Previously run:              33
+2026-08-16 00:51:02  INFO: Filtered out:                 1
+2026-08-16 00:51:02  INFO: -------------------------------
+2026-08-16 00:51:02  INFO: Total change sets:           34
+2026-08-16 00:51:02  INFO: FILTERED CHANGE SETS SUMMARY
+2026-08-16 00:51:02  INFO: DBMS mismatch:                1
+2026-08-16 00:51:02  INFO: Update summary generated
+2026-08-16 00:51:02  INFO: Command execution complete
+2026-08-16 00:51:07  INFO: jetty-12.1.8; built: 2026-04-01T01:09:18.991Z; git: c9cdc9aaa434a3665b8a53b4d1cc3684992da649; jvm 21.0.11+10-LTS
+2026-08-16 00:51:07  INFO: Session workerName=node0
+2026-08-16 00:51:07  INFO: Started oeje10s.ServletContextHandler@1e4d8770{ROOT,/,b=file:///opt/taipan/web/,a=AVAILABLE,h=oeje10s.SessionHandler@5b5b9521{STARTED}}
+2026-08-16 00:51:08  INFO: Started oeje10s.ServletContextHandler@1e4d8770{ROOT,/,b=file:///opt/taipan/web/,a=AVAILABLE,h=oeje10s.SessionHandler@5b5b9521{STARTED}}
+2026-08-16 00:51:08  INFO: Started oejs.ServerConnector@1831447c{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2026-08-16 00:51:08  INFO: Started oejs.Server@7741507c{STARTING}[12.1.8,sto=0] @1118ms
+2026-08-16 00:52:06  WARN: baseResource file:///opt/taipan/./media is not a readable directory
+2026-08-16 00:58:51  INFO: Operating system name: Linux version: 6.6.87.2-microsoft-standard-WSL2 architecture: amd64
+2026-08-16 00:58:51  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 21.0.11+10-LTS
+2026-08-16 00:58:51  INFO: Memory limit heap: 1978mb non-heap: 0mb
+2026-08-16 00:58:51  INFO: Character encoding: UTF-8
+2026-08-16 00:58:51  INFO: Version: 6.14.5
+2026-08-16 00:58:51  INFO: Starting server...
+2026-08-16 00:58:53  INFO: HikariPool-1 - Starting...
+2026-08-16 00:58:55  INFO: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ff6077
+2026-08-16 00:58:55  INFO: HikariPool-1 - Start completed.
+2026-08-16 00:58:57  INFO: Successfully acquired change log lock
+2026-08-16 00:58:58  INFO: Clearing database change log checksums for database mariadb
+2026-08-16 00:58:58  INFO: Successfully released change log lock
+2026-08-16 00:58:58  INFO: Command execution complete
+2026-08-16 00:59:01  INFO: Reading from traccar.databasechangelog
+2026-08-16 00:59:06  INFO: Reading from traccar.databasechangelog
+2026-08-16 00:59:06  INFO: Reading from traccar.databasechangelog
+2026-08-16 00:59:06  INFO: UPDATE SUMMARY
+2026-08-16 00:59:06  INFO: Run:                          0
+2026-08-16 00:59:06  INFO: Previously run:              33
+2026-08-16 00:59:06  INFO: Filtered out:                 1
+2026-08-16 00:59:06  INFO: -------------------------------
+2026-08-16 00:59:06  INFO: Total change sets:           34
+2026-08-16 00:59:06  INFO: FILTERED CHANGE SETS SUMMARY
+2026-08-16 00:59:06  INFO: DBMS mismatch:                1
+2026-08-16 00:59:06  INFO: Update summary generated
+2026-08-16 00:59:06  INFO: Command execution complete
+2026-08-16 00:59:13  INFO: jetty-12.1.8; built: 2026-04-01T01:09:18.991Z; git: c9cdc9aaa434a3665b8a53b4d1cc3684992da649; jvm 21.0.11+10-LTS
+2026-08-16 00:59:13  INFO: Session workerName=node0
+2026-08-16 00:59:13  INFO: Started oeje10s.ServletContextHandler@66314fee{ROOT,/,b=file:///opt/taipan/web/,a=AVAILABLE,h=oeje10s.SessionHandler@14b5325f{STARTED}}
+2026-08-16 00:59:15  INFO: Started oeje10s.ServletContextHandler@66314fee{ROOT,/,b=file:///opt/taipan/web/,a=AVAILABLE,h=oeje10s.SessionHandler@14b5325f{STARTED}}
+2026-08-16 00:59:15  INFO: Started oejs.ServerConnector@1ba3c03d{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2026-08-16 00:59:15  INFO: Started oejs.Server@9a37591{STARTING}[12.1.8,sto=0] @1752ms
+2026-08-16 00:59:26  WARN: baseResource file:///opt/taipan/./media is not a readable directory

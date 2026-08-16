@@ -6,7 +6,7 @@ RUN sed -i 's/\r$//' gradlew && chmod +x gradlew
 # Instala Node.js (necesario para que Gradle pueda compilar el frontend)
 RUN apt-get update && \
 	apt-get install -y curl && \
-	curl -fsSL https://deb.nodesource.com/setup_20.x | bash - && \
+	curl -fsSL https://deb.nodesource.com/setup_22.x | bash - && \
 	apt-get install -y nodejs && \
 	rm -rf /var/lib/apt/lists/*
 
@@ -18,9 +18,10 @@ COPY --from=build /build/target/tracker-server.jar ./tracker-server.jar
 COPY --from=build /build/target/lib ./lib
 COPY --from=build /build/schema ./schema
 COPY --from=build /build/web ./web
+COPY conf ./conf
 
 EXPOSE 8082
 EXPOSE 5000-5150
 EXPOSE 5000-5150/udp
 
-ENTRYPOINT ["java", "-jar", "tracker-server.jar", "conf/taipan.xml"]
+ENTRYPOINT ["java", "-jar", "tracker-server.jar", "/opt/taipan/conf/taipan.xml"]
