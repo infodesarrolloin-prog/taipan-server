@@ -941,3 +941,133 @@
 2026-08-16 00:59:15  INFO: Started oejs.ServerConnector@1ba3c03d{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
 2026-08-16 00:59:15  INFO: Started oejs.Server@9a37591{STARTING}[12.1.8,sto=0] @1752ms
 2026-08-16 00:59:26  WARN: baseResource file:///opt/taipan/./media is not a readable directory
+2026-08-16 15:35:06  INFO: Operating system name: Linux version: 6.6.87.2-microsoft-standard-WSL2 architecture: amd64
+2026-08-16 15:35:06  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 21.0.11+10-LTS
+2026-08-16 15:35:06  INFO: Memory limit heap: 1978mb non-heap: 0mb
+2026-08-16 15:35:06  INFO: Character encoding: UTF-8
+2026-08-16 15:35:06  INFO: Version: 6.14.5
+2026-08-16 15:35:06  INFO: Starting server...
+2026-08-16 15:35:08  INFO: HikariPool-1 - Starting...
+2026-08-16 15:35:13  INFO: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ff6077
+2026-08-16 15:35:13  INFO: HikariPool-1 - Start completed.
+2026-08-16 15:35:18  INFO: Successfully acquired change log lock
+2026-08-16 15:35:18  INFO: Clearing database change log checksums for database mariadb
+2026-08-16 15:35:18  INFO: Successfully released change log lock
+2026-08-16 15:35:18  INFO: Command execution complete
+2026-08-16 15:35:20  INFO: Reading from taipan.DATABASECHANGELOG
+2026-08-16 15:35:22  INFO: Reading from taipan.DATABASECHANGELOG
+2026-08-16 15:35:22  INFO: Reading from taipan.DATABASECHANGELOG
+2026-08-16 15:35:22  INFO: UPDATE SUMMARY
+2026-08-16 15:35:22  INFO: Run:                          0
+2026-08-16 15:35:22  INFO: Previously run:              33
+2026-08-16 15:35:22  INFO: Filtered out:                 1
+2026-08-16 15:35:22  INFO: -------------------------------
+2026-08-16 15:35:22  INFO: Total change sets:           34
+2026-08-16 15:35:22  INFO: FILTERED CHANGE SETS SUMMARY
+2026-08-16 15:35:22  INFO: DBMS mismatch:                1
+2026-08-16 15:35:22  INFO: Update summary generated
+2026-08-16 15:35:22  INFO: Command execution complete
+2026-08-16 15:35:26  INFO: jetty-12.1.8; built: 2026-04-01T01:09:18.991Z; git: c9cdc9aaa434a3665b8a53b4d1cc3684992da649; jvm 21.0.11+10-LTS
+2026-08-16 15:35:26  INFO: Session workerName=node0
+2026-08-16 15:35:26  INFO: Started oeje10s.ServletContextHandler@66314fee{ROOT,/,b=file:///opt/taipan/web/,a=AVAILABLE,h=oeje10s.SessionHandler@14b5325f{STARTED}}
+2026-08-16 15:35:29  INFO: Started oeje10s.ServletContextHandler@66314fee{ROOT,/,b=file:///opt/taipan/web/,a=AVAILABLE,h=oeje10s.SessionHandler@14b5325f{STARTED}}
+2026-08-16 15:35:29  INFO: Started oejs.ServerConnector@1ba3c03d{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2026-08-16 15:35:29  INFO: Started oejs.Server@9a37591{STARTING}[12.1.8,sto=0] @3108ms
+2026-08-16 15:36:41  WARN: baseResource file:///opt/taipan/./media is not a readable directory
+2026-08-16 15:42:51  INFO: Operating system name: Linux version: 6.6.87.2-microsoft-standard-WSL2 architecture: amd64
+2026-08-16 15:42:51  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 21.0.11+10-LTS
+2026-08-16 15:42:51  INFO: Memory limit heap: 1978mb non-heap: 0mb
+2026-08-16 15:42:51  INFO: Character encoding: UTF-8
+2026-08-16 15:42:51  INFO: Version: 6.14.5
+2026-08-16 15:42:51  INFO: Starting server...
+2026-08-16 15:42:52  INFO: HikariPool-1 - Starting...
+2026-08-16 15:42:53  INFO: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ff6077
+2026-08-16 15:42:53  INFO: HikariPool-1 - Start completed.
+2026-08-16 15:42:54  INFO: Successfully acquired change log lock
+2026-08-16 15:42:54  INFO: Clearing database change log checksums for database mariadb
+2026-08-16 15:42:54  INFO: Successfully released change log lock
+2026-08-16 15:42:54  INFO: Command execution complete
+2026-08-16 15:42:55  INFO: Reading from taipan.DATABASECHANGELOG
+2026-08-16 15:42:56  INFO: Reading from taipan.DATABASECHANGELOG
+2026-08-16 15:42:56  INFO: Reading from taipan.DATABASECHANGELOG
+2026-08-16 15:42:56  INFO: UPDATE SUMMARY
+2026-08-16 15:42:56  INFO: Run:                          0
+2026-08-16 15:42:56  INFO: Previously run:              33
+2026-08-16 15:42:56  INFO: Filtered out:                 1
+2026-08-16 15:42:56  INFO: -------------------------------
+2026-08-16 15:42:56  INFO: Total change sets:           34
+2026-08-16 15:42:56  INFO: FILTERED CHANGE SETS SUMMARY
+2026-08-16 15:42:56  INFO: DBMS mismatch:                1
+2026-08-16 15:42:56  INFO: Update summary generated
+2026-08-16 15:42:56  INFO: Command execution complete
+2026-08-16 15:43:01  INFO: jetty-12.1.8; built: 2026-04-01T01:09:18.991Z; git: c9cdc9aaa434a3665b8a53b4d1cc3684992da649; jvm 21.0.11+10-LTS
+2026-08-16 15:43:01  INFO: Session workerName=node0
+2026-08-16 15:43:01  INFO: Started oeje10s.ServletContextHandler@66314fee{ROOT,/,b=file:///opt/taipan/web/,a=AVAILABLE,h=oeje10s.SessionHandler@14b5325f{STARTED}}
+2026-08-16 15:43:02  INFO: Started oeje10s.ServletContextHandler@66314fee{ROOT,/,b=file:///opt/taipan/web/,a=AVAILABLE,h=oeje10s.SessionHandler@14b5325f{STARTED}}
+2026-08-16 15:43:02  INFO: Started oejs.ServerConnector@1ba3c03d{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2026-08-16 15:43:02  INFO: Started oejs.Server@9a37591{STARTING}[12.1.8,sto=0] @1223ms
+2026-08-16 15:51:35  INFO: Operating system name: Linux version: 6.6.87.2-microsoft-standard-WSL2 architecture: amd64
+2026-08-16 15:51:35  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 21.0.11+10-LTS
+2026-08-16 15:51:35  INFO: Memory limit heap: 1978mb non-heap: 0mb
+2026-08-16 15:51:35  INFO: Character encoding: UTF-8
+2026-08-16 15:51:35  INFO: Version: 6.14.5
+2026-08-16 15:51:35  INFO: Starting server...
+2026-08-16 15:51:36  INFO: HikariPool-1 - Starting...
+2026-08-16 15:51:37  INFO: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ff6077
+2026-08-16 15:51:37  INFO: HikariPool-1 - Start completed.
+2026-08-16 15:51:38  INFO: Successfully acquired change log lock
+2026-08-16 15:51:38  INFO: Clearing database change log checksums for database mariadb
+2026-08-16 15:51:38  INFO: Successfully released change log lock
+2026-08-16 15:51:38  INFO: Command execution complete
+2026-08-16 15:51:40  INFO: Reading from taipan.DATABASECHANGELOG
+2026-08-16 15:51:42  INFO: Reading from taipan.DATABASECHANGELOG
+2026-08-16 15:51:42  INFO: Reading from taipan.DATABASECHANGELOG
+2026-08-16 15:51:42  INFO: UPDATE SUMMARY
+2026-08-16 15:51:42  INFO: Run:                          0
+2026-08-16 15:51:42  INFO: Previously run:              33
+2026-08-16 15:51:42  INFO: Filtered out:                 1
+2026-08-16 15:51:42  INFO: -------------------------------
+2026-08-16 15:51:42  INFO: Total change sets:           34
+2026-08-16 15:51:42  INFO: FILTERED CHANGE SETS SUMMARY
+2026-08-16 15:51:42  INFO: DBMS mismatch:                1
+2026-08-16 15:51:42  INFO: Update summary generated
+2026-08-16 15:51:42  INFO: Command execution complete
+2026-08-16 15:51:46  INFO: jetty-12.1.8; built: 2026-04-01T01:09:18.991Z; git: c9cdc9aaa434a3665b8a53b4d1cc3684992da649; jvm 21.0.11+10-LTS
+2026-08-16 15:51:46  INFO: Session workerName=node0
+2026-08-16 15:51:46  INFO: Started oeje10s.ServletContextHandler@6cc90398{ROOT,/,b=file:///opt/taipan/web/,a=AVAILABLE,h=oeje10s.SessionHandler@6b6fd0{STARTED}}
+2026-08-16 15:51:49  INFO: Started oeje10s.ServletContextHandler@6cc90398{ROOT,/,b=file:///opt/taipan/web/,a=AVAILABLE,h=oeje10s.SessionHandler@6b6fd0{STARTED}}
+2026-08-16 15:51:50  INFO: Started oejs.ServerConnector@4468c0ea{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2026-08-16 15:51:50  INFO: Started oejs.Server@41cf4272{STARTING}[12.1.8,sto=0] @3275ms
+2026-08-16 10:55:32  INFO: Operating system name: Linux version: 6.6.87.2-microsoft-standard-WSL2 architecture: amd64
+2026-08-16 10:55:32  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 21.0.11+10-LTS
+2026-08-16 10:55:32  INFO: Memory limit heap: 1978mb non-heap: 0mb
+2026-08-16 10:55:32  INFO: Character encoding: UTF-8
+2026-08-16 10:55:32  INFO: Version: 6.14.5
+2026-08-16 10:55:32  INFO: Starting server...
+2026-08-16 10:55:32  INFO: HikariPool-1 - Starting...
+2026-08-16 10:55:33  INFO: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ff6077
+2026-08-16 10:55:33  INFO: HikariPool-1 - Start completed.
+2026-08-16 10:55:34  INFO: Successfully acquired change log lock
+2026-08-16 10:55:34  INFO: Clearing database change log checksums for database mariadb
+2026-08-16 10:55:34  INFO: Successfully released change log lock
+2026-08-16 10:55:34  INFO: Command execution complete
+2026-08-16 10:55:35  INFO: Reading from taipan.DATABASECHANGELOG
+2026-08-16 10:55:36  INFO: Reading from taipan.DATABASECHANGELOG
+2026-08-16 10:55:36  INFO: Reading from taipan.DATABASECHANGELOG
+2026-08-16 10:55:36  INFO: UPDATE SUMMARY
+2026-08-16 10:55:36  INFO: Run:                          0
+2026-08-16 10:55:36  INFO: Previously run:              33
+2026-08-16 10:55:36  INFO: Filtered out:                 1
+2026-08-16 10:55:36  INFO: -------------------------------
+2026-08-16 10:55:36  INFO: Total change sets:           34
+2026-08-16 10:55:36  INFO: FILTERED CHANGE SETS SUMMARY
+2026-08-16 10:55:36  INFO: DBMS mismatch:                1
+2026-08-16 10:55:36  INFO: Update summary generated
+2026-08-16 10:55:36  INFO: Command execution complete
+2026-08-16 10:55:39  INFO: jetty-12.1.8; built: 2026-04-01T01:09:18.991Z; git: c9cdc9aaa434a3665b8a53b4d1cc3684992da649; jvm 21.0.11+10-LTS
+2026-08-16 10:55:39  INFO: Session workerName=node0
+2026-08-16 10:55:39  INFO: Started oeje10s.ServletContextHandler@3d718248{ROOT,/,b=file:///opt/taipan/web/,a=AVAILABLE,h=oeje10s.SessionHandler@2cdb5974{STARTED}}
+2026-08-16 10:55:40  INFO: Started oeje10s.ServletContextHandler@3d718248{ROOT,/,b=file:///opt/taipan/web/,a=AVAILABLE,h=oeje10s.SessionHandler@2cdb5974{STARTED}}
+2026-08-16 10:55:40  INFO: Started oejs.ServerConnector@4d84688f{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2026-08-16 10:55:40  INFO: Started oejs.Server@3ee68eb2{STARTING}[12.1.8,sto=0] @956ms
+2026-08-16 10:56:07  WARN: baseResource file:///opt/taipan/./media is not a readable directory

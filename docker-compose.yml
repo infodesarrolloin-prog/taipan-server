@@ -5,6 +5,8 @@ services:
       dockerfile: dockerfile.dev
     container_name: taipan-backend-dv
     restart: unless-stopped
+    environment:
+      TZ: America/Bogota
     ports:
       - "8083:8082"
       - "6000-6300:5000-5300"
@@ -28,6 +30,7 @@ services:
     environment:
       - NODE_ENV=development
       - VITE_PROXY_TARGET=http://backend:8082
+      - TZ=America/Bogota
     depends_on:
       - backend
 
@@ -36,6 +39,7 @@ services:
     container_name: taipan-database-dev
     restart: unless-stopped
     environment:
+      TZ: America/Bogota
       MYSQL_ROOT_PASSWORD: Bbn2g3X275K
       MYSQL_DATABASE: taipan
       MYSQL_USER: taipan
