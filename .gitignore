@@ -1,14 +1,63 @@
+# ==========================================
+# Archivos de compilación y salida (Java/Maven/Gradle)
+# ==========================================
+# Carpetas donde se guarda el código compilado (.class, .jar, etc.)
 target
+out
+build
+bin
+
+# ==========================================
+# Configuraciones de Editores e IDEs
+# ==========================================
+# NetBeans
 nbactions.xml
+
+# Eclipse
 .classpath
 .project
 .settings
+
+# IntelliJ IDEA
 .idea
 *.iml
-.DS_Store
-.checkstyle
-.gradle
-out
-build
+
+# Visual Studio Code
 .vscode
-bin
+
+# ==========================================
+# Herramientas y caché
+# ==========================================
+# Caché y configuraciones locales de Gradle
+.gradle
+
+# Archivos de la herramienta Checkstyle
+.checkstyle
+
+# ==========================================
+# Archivos del Sistema Operativo
+# ==========================================
+# Archivos ocultos de macOS que guardan preferencias de carpetas
+.DS_Store
+
+# ==========================================
+# Archivos específicos del servidor / Docker
+# ==========================================
+
+# Ignora la carpeta de logs y cualquier archivo .log para no subir el historial 
+# de ejecuciones, evitar que el repositorio crezca y prevenir conflictos.
+logs/
+*.log
+
+# Ignora la base de datos local (ej. base H2) y los datos de estado para 
+# que las actualizaciones del servidor no borren o reemplacen tu información local.
+data/
+*.db
+
+# Archivo de variables de entorno de Docker. Contiene contraseñas y 
+# configuraciones locales que no deben subirse ni ser reemplazadas por actualizaciones.
+.env
+
+# Archivo de configuración principal del servidor. Al ignorarlo, 
+# conservas tus configuraciones (como credenciales de BD y configuraciones de Docker) al actualizar.
+conf/taipan.xml

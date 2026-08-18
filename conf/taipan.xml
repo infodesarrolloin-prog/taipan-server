@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE properties SYSTEM 'http://java.sun.com/dtd/properties.dtd'>
-<properties>
-    <entry key='database.driver'>com.mysql.cj.jdbc.Driver</entry>
-    <entry key='database.url'>jdbc:mysql://db:3306/taipan?serverTimezone=UTC&amp;allowPublicKeyRetrieval=true&amp;useSSL=false</entry>
-    <entry key='database.user'>taipan</entry>
-    <entry key='database.password'>JD96jM5o5K6</entry>
-</properties>
